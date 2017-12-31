@@ -5,3 +5,4 @@ demo/
 apidoc/
 *.log
 .idea/
+dist/
