@@ -138,7 +138,8 @@ function mdInit() {
                 .use(require('markdown-it-ins'))
                 .use(require('markdown-it-mark'))
                 .use(require('markdown-it-sub'))
-                .use(require('markdown-it-sup'));
+                .use(require('markdown-it-sup'))
+                .use(require('markdown-it-container'), 'mba',{marker:'+'});
     mdSrc = window.markdownit(defaults)
                 .use(require('markdown-it-abbr'))
                 .use(require('markdown-it-container'), 'warning')
@@ -148,7 +149,8 @@ function mdInit() {
                 .use(require('markdown-it-ins'))
                 .use(require('markdown-it-mark'))
                 .use(require('markdown-it-sub'))
-                .use(require('markdown-it-sup'));
+                .use(require('markdown-it-sup'))
+                .use(require('markdown-it-container'), 'mba',{marker:'+'});
   }
 
   // Beautify output of parser for html content
