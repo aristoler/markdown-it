@@ -38,7 +38,6 @@ gh-demo: demo
 	rm -rf ./demo
 
 lint:
-	eslint .
 
 test: lint
 	mocha

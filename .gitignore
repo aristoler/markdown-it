@@ -6,3 +6,5 @@ apidoc/
 *.log
 .idea/
 dist/
+lib/.DS_Store
+support/.DS_Store
